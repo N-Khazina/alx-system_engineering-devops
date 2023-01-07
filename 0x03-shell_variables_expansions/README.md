@@ -1,1 +1,1 @@
-0-alias => Create a script that creates an alias Name: Ls Value: rm *
+This is a task on shell, init files,variables and expansions

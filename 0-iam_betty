@@ -1,2 +1,0 @@
-#!/bin/bash
-su -l anotheruser -c 'betty'

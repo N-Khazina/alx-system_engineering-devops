@@ -1,1 +1,1 @@
-script that switches the current user to the user 
+This scripts shows varipus permissions that can be done in shell
