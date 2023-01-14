@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# add a custom Nginx response header.
+sudo apt update
+sudo apt -y install nginx
+ufw allow "Nginx HTTP"
+sudo sed -i "11i///t add_header X-Served-By $hostname;" etc/nginx/nginx.conf
+echo "Hello World!" | sudo tee usr/share/nginx/html/index.html
+nginx -s reload
+service nginx restart

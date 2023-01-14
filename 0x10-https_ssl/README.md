@@ -1,26 +1,18 @@
-# HTTPS SSL
+# Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-In this project, I learned about the importance of HTTPS and how it works. I
-configured my HolbertonBnB web servers with `certbot` certificate and HAproxy
-SSL termination.
+# General
+What is HTTPS SSL 2 main roles
+What is the purpose encrypting traffic
+What SSL termination means
 
-## Tasks :page_with_curl:
-
-
-* **0. World wide web**
-  * [1-world_wide_web](./0-world_wide_web): Bash script that displays
-  information about subdomains on my configured servers.
-  * Usage: `./1-world_wide_web <domain> <subdomain>`
-  * Output: `The subdomain [SUB_DOMAIN] is a [RECORD_TYPE] record and
-  points to [DESTINATION]`
-  * If no `subdomain` parameter is passed, displays information about the
-  subdomains `www`, `lb-01`, `web-01` and `web-02`, in that order.
-
-* **2. HAproxy SSL termination**
-  * [2-haproxy_ssl_termination](./2-haproxy_ssl_termination): HAproxy
-  configuration file that accepts encrypted SSL traffic for the subdomain
-  `www.` on TCP port 443.
-
-* **3. No loophole in your website traffic**
-  * [100-redirect_http_to_https](./100-redirect_http_to_https): HAproxy
-  configuration file that automatically redirects HTTP traffic to HTTPS.
+# Requirements
+#General
+Allowed editors: vi, vim, emacs
+All your files will be interpreted on Ubuntu 16.04 LTS
+All your files should end with a new line
+A README.md file, at the root of the folder of the project, is mandatory
+All your Bash script files must be executable
+Your Bash script must pass Shellcheck (version 0.3.7) without any error
+The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
+The second line of all your Bash scripts should be a comment explaining what is the script doing
