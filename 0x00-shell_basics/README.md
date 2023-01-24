@@ -1,1 +1,1 @@
-list of commands
+This is a shell basics repo
